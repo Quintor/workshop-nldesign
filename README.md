@@ -1,50 +1,46 @@
-# React + TypeScript + Vite
+# Rijkshuisstijl template voor Windesheim.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Voordat je begint
 
-Currently, two official plugins are available:
+### Node
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Zorg ervoor dat je Node.js versie **_20_** of hoger geïnstalleerd hebt.
 
-## Expanding the ESLint configuration
+Controleer je huidige Node-versie door in je terminal te typen:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```bash
+node --version
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Als je versie lager is dan 20, kun je via Node Version Manager (nvm) je Node-versies beheren en wisselen. Volg deze
+stappen om de juiste Node-versie te installeren:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- Als je nvm nog niet hebt, [installeer `nvm`](https://github.com/nvm-sh/nvm#install--update-script).
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+- Gebruik daarna `nvm` om Node.js 20 (of hoger) te installeren:
+
+```bash
+nvm install 20
 ```
+
+- Stel Node.js 20 in als actieve versie:
+
+```bash
+nvm use 20
+```
+
+### Project starten.
+
+Voordat je het project start moeten de dependencies worden geinstaleerd. Om deze te instaleren gebruik je het command:
+
+```bash
+npm install
+```
+
+Hierna kan je het project starten, hiervoor voer je het volgende script uit in een terminal in de root van het project:
+
+```bash
+npm run dev
+```
+
+Als het goed is, is het project gestart en kan je het bekijken in een browser op: [http://localhost:5173/](http://localhost:5173/)
