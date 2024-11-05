@@ -1,0 +1,39 @@
+# Ignore Node modules
+node_modules/
+
+# Ignore build output
+dist/
+
+# Ignore Vite cache
+.vite/
+
+# Ignore package-lock or yarn.lock if you're using npm or yarn
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore .env files for environment variables
+.env
+.env.local
+.env.*.local
+
+# Ignore editor specific files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+*.log
+
+# Ignore npm debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
