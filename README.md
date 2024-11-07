@@ -12,22 +12,30 @@ Controleer je huidige Node-versie door in je terminal te typen:
 node --version
 ```
 
-Als je versie lager is dan 20, kun je via Node Version Manager (nvm) je Node-versies beheren en wisselen. Volg deze
-stappen om de juiste Node-versie te installeren:
+Als je nog geen Node hebt geinstalleerd of niet de juiste versie hebt zijn er twee manier om dit te doen:
+
+#### 1. handmatig
+
+Download en installeer de juiste versie via [Nodejs.org](https://nodejs.org/en/download/prebuilt-installer/current) handmatig.
+
+#### 2. Met `nvm`
+
+Via Node Version Manager (nvm) kan je Node-versies beheren en wisselen. Volg deze stappen om de juiste Node-versie te
+installeren:
 
 - Als je nvm nog niet hebt, [installeer `nvm`](https://github.com/nvm-sh/nvm#install--update-script).
 
-- Gebruik daarna `nvm` om Node.js 20 (of hoger) te installeren:
+Dit project bevat een `.nvmrc` bestand, dit bestand helpt je met het instellen van de juiste Node versie.
+
+Zodra je `nvm` hebt geïnstalleerd, run je het volgende commando in de root van dit project:
 
 ```bash
-nvm install 20
+nvm use
 ```
 
-- Stel Node.js 20 in als actieve versie:
+Als je de juiste versie nog niet hebt, wordt gevraagd om deze te installeren door middel van `nvm install`. Als de
+juiste versie al is geïnstalleerd, of nadat hij is geïnstalleerd, wordt hij ingesteld als de huidige versie.
 
-```bash
-nvm use 20
-```
 
 ### Project starten.
 
@@ -43,4 +51,5 @@ Hierna kan je het project starten, hiervoor voer je het volgende script uit in e
 npm run dev
 ```
 
-Als het goed is, is het project gestart en kan je het bekijken in een browser op: [http://localhost:5173/](http://localhost:5173/)
+Als het goed is, is het project gestart en kan je het bekijken in een browser
+op: [http://localhost:5173/](http://localhost:5173/)
