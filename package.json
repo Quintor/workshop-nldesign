@@ -15,8 +15,8 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
-    "@rijkshuisstijl-community/components-react": "^1.0.0-alpha.28",
-    "@rijkshuisstijl-community/design-tokens": "^1.0.0-alpha.53",
+    "@rijkshuisstijl-community/components-react": "^1.0.0-alpha.34",
+    "@rijkshuisstijl-community/design-tokens": "^1.0.0-alpha.59",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.3",
