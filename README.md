@@ -16,7 +16,8 @@ Als je nog geen Node hebt geinstalleerd of niet de juiste versie hebt zijn er tw
 
 #### 1. handmatig
 
-Download en installeer de juiste versie via [Nodejs.org](https://nodejs.org/en/download/prebuilt-installer/current) handmatig.
+Download en installeer de juiste versie via [Nodejs.org](https://nodejs.org/en/download/prebuilt-installer/current)
+handmatig.
 
 #### 2. Met `nvm`
 
@@ -36,7 +37,6 @@ nvm use
 Als je de juiste versie nog niet hebt, wordt gevraagd om deze te installeren door middel van `nvm install`. Als de
 juiste versie al is geïnstalleerd, of nadat hij is geïnstalleerd, wordt hij ingesteld als de huidige versie.
 
-
 ### Project starten.
 
 Voordat je het project start moeten de dependencies worden geinstaleerd. Om deze te instaleren gebruik je het command:
@@ -53,3 +53,12 @@ npm run dev
 
 Als het goed is, is het project gestart en kan je het bekijken in een browser
 op: [http://localhost:5173/](http://localhost:5173/)
+
+## De componenten
+
+De componenten die je kan gebruiken voor het maken van jouw pagina zijn in het
+[Storybook](https://rijkshuisstijl-community.vercel.app/?path=/docs/rijkshuisstijl-community-font--docs) te vinden.
+
+## Voobeelden
+
+Heb je een voorbeeld nodig om na te maken? Kijk dan [hier](https://rijkshuisstijl-community-templates.vercel.app/)!
