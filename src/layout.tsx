@@ -25,9 +25,9 @@ export default function RootLayout({children}: PropsWithChildren<{}>) {
             </div>
             <NavBar
                 items={[
-                    {href: '/', label: 'Home'},
-                    {href: '/', label: 'Nieuws'},
-                    {href: '/', label: 'Contact'},
+                    {href: '/', label: 'Home', id: '1'},
+                    {href: '/', label: 'Nieuws', id: '2'},
+                    {href: '/', label: 'Contact', id: '3'},
                 ]}
             ></NavBar>
             <div className="page-container">
@@ -54,13 +54,20 @@ export default function RootLayout({children}: PropsWithChildren<{}>) {
                         {
                             children:
                                 <LinkList>
-                                    <LinkListLink href="#" icon={<Icon icon="chevron-right"/>}>Over Rijksoverheid.nl</LinkListLink>
-                                    <LinkListLink href="#" icon={<Icon icon="chevron-right"/>}>Wetten en regelingen</LinkListLink>
-                                    <LinkListLink href="#" icon={<Icon icon="chevron-right"/>}>Copyright</LinkListLink><LinkListLink href="#" icon={<Icon icon="chevron-right"/>}>Privacy</LinkListLink>
+                                    <LinkListLink href="#" icon={<Icon icon="chevron-right"/>}>Over
+                                        Rijksoverheid.nl</LinkListLink>
+                                    <LinkListLink href="#" icon={<Icon icon="chevron-right"/>}>Wetten en
+                                        regelingen</LinkListLink>
+                                    <LinkListLink href="#" icon={<Icon
+                                        icon="chevron-right"/>}>Copyright</LinkListLink><LinkListLink href="#"
+                                                                                                      icon={<Icon
+                                                                                                          icon="chevron-right"/>}>Privacy</LinkListLink>
                                     <LinkListLink href="#" icon={<Icon icon="chevron-right"/>}>Cookies</LinkListLink>
-                                    <LinkListLink href="#" icon={<Icon icon="chevron-right"/>}>Toegankelijkheid</LinkListLink>
-                                    <LinkListLink href="#"icon={<Icon icon="chevron-right"/>}>Open data</LinkListLink>
-                                    <LinkListLink href="#" icon={<Icon icon="chevron-right"/>}>Kwetsbaarheid melden</LinkListLink>
+                                    <LinkListLink href="#"
+                                                  icon={<Icon icon="chevron-right"/>}>Toegankelijkheid</LinkListLink>
+                                    <LinkListLink href="#" icon={<Icon icon="chevron-right"/>}>Open data</LinkListLink>
+                                    <LinkListLink href="#" icon={<Icon icon="chevron-right"/>}>Kwetsbaarheid
+                                        melden</LinkListLink>
                                 </LinkList>,
                             heading: 'Over deze site'
                         }
