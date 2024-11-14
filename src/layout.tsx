@@ -25,9 +25,9 @@ export default function RootLayout({children}: PropsWithChildren<{}>) {
             </div>
             <NavBar
                 items={[
-                    {href: '/', label: 'Home'},
-                    {href: '/', label: 'Nieuws'},
-                    {href: '/', label: 'Contact'},
+                    {href: '/', label: 'Home', id: '1'},
+                    {href: '/', label: 'Nieuws', id: '2'},
+                    {href: '/', label: 'Contact', id: '3'},
                 ]}
             ></NavBar>
             <div className="page-container">
