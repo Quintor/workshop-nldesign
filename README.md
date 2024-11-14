@@ -59,6 +59,15 @@ op: [http://localhost:5173/](http://localhost:5173/)
 De componenten die je kan gebruiken voor het maken van jouw pagina zijn in het
 [Storybook](https://rijkshuisstijl-community.vercel.app/?path=/docs/rijkshuisstijl-community-font--docs) te vinden.
 
-## Voobeelden
+## Voorbeelden
 
 Heb je een voorbeeld nodig om na te maken? Kijk dan [hier](https://rijkshuisstijl-community-templates.vercel.app/)!
+
+# Opdracht
+
+
+Nu mogen jullie aan de slag! Bouw in de [App.tsx](src/App.tsx) een pagina naar keuze met behulp van componten die worden aangeboden in de storybook van de Rijkshuisstijl community.
+Als je hulp nodig hebt met het bedenken van een pagina kan je kijken bij de voorbeelden. 
+
+Als je pagina af is kan je controleren of het voldoet aan de accesibility eisen door middel van een test uit te voeren. 
+Open een terminal en run de command `npm run test`.
